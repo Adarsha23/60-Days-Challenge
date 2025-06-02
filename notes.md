@@ -78,4 +78,7 @@ HTML stands for HyperText Markup Language. It is used on the frontend and gives 
 ### 4. HTML Tables
 1. The HTML <table> tag defines an HTML table.
 2. Each table row is defined with a <tr> tag. Each table header is defined with a <th> tag. Each table data/cell is defined with a <td> tag.
-3. 
+3. To add a border to the table, use the border attribute in css.
+4. To maintain the table layout, add the width attribute to the <table> element.
+5. To maintain the row layout, add the height attribute to the <tr> element.
+6. 
