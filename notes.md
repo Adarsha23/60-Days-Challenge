@@ -4,6 +4,12 @@
     - [1. Header basics](#1-header-basics)
     - [2. Texts basics](#2-texts-basics)
     - [3. Lists](#3-lists)
+- [Day 02- Learning Basic HTML](#day-02--learning-basic-html)
+  - [Points to remember:](#points-to-remember-1)
+    - [1.Html Quotations](#1html-quotations)
+    - [2. HTML Links](#2-html-links)
+    - [3. HTML Images](#3-html-images)
+    - [4. HTML Tables](#4-html-tables)
 
 
 # Day 01- Learning Basic Html
@@ -39,3 +45,37 @@ HTML stands for HyperText Markup Language. It is used on the frontend and gives 
 4.description list is used to display the list of items with a description. Syntax: <dl> <dt> </dt> <dd> </dd> </dl>
 5.list items are displayed using the li tag.
 
+# Day 02- Learning Basic HTML
+## Points to remember:
+### 1.Html Quotations
+1. The HTML <blockquote> element defines a section that is quoted from another source.
+2. The HTML <q> element defines a short inline quotation.
+3. Quotations are usually displayed with indentation.
+
+### 2. HTML Links
+1. The HTML <a> tag defines a hyperlink.
+2. The most important attribute of the <a> element is the href attribute, which indicates the link's destination.
+3. By default, links will open in the same tab as the user was in before clicking the link.4. To change this, you must specify another target for the <a> tag.
+   - The target attribute specifies where to open the linked document.
+   - To open the linked document in a new window or tab, use the target="_blank" attribute.
+5. The links discussed above are absolute URLS. i.e. the urls of a full web address.
+6. If you want to link to a page within your own website, you can use relative URLS.
+7. You can also use image as a link using the img tG inside the href tag.
+8. You can also directly link to mail using the mailto: tag.
+9. You can have a hover text over the link using the title attribute.
+10. To bookmark a link, you can use the id attribute, then link to it using the href attribute.
+
+### 3. HTML Images
+1. The HTML <img> tag is used to embed an image in an HTML page.
+2. The <img> tag has two required attributes:
+  - src - Specifies the path to the image
+  - alt - Specifies an alternate text for the image
+3. You can also add animated stuff like gif using the same methods.
+4. You can also add a link to the image using the a tag.
+5. To make the image float, you can use the float attribute.
+6. You can also add backgorund image to a specific paragraph or even the whole page.
+
+### 4. HTML Tables
+1. The HTML <table> tag defines an HTML table.
+2. Each table row is defined with a <tr> tag. Each table header is defined with a <th> tag. Each table data/cell is defined with a <td> tag.
+3. 

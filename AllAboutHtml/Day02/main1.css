@@ -1,0 +1,22 @@
+body{
+    background-color: #333;
+    color: whitesmoke;
+}
+html{
+    font-size: 22px;
+}
+table, th,td{
+    border: 3px ;
+    border-color: #333;
+    border-collapse: collapse;
+    border-radius: 10px;
+    padding: 10px;
+    color: #333;
+}
+th,td{
+    border-style: dashed;
+    background-color: aliceblue;
+}
+table{
+    width: 100%;
+}
