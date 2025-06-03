@@ -5,18 +5,32 @@ body{
 html{
     font-size: 22px;
 }
-table, th,td{
+#table2, th,td{
     border: 3px ;
     border-color: #333;
-    border-collapse: collapse;
-    border-radius: 10px;
-    padding: 10px;
+    
     color: #333;
 }
 th,td{
-    border-style: dashed;
+    border-style:double;
     background-color: aliceblue;
+    border-collapse: collapse;
+    border-radius: 10px;
+    padding: 10px;
 }
-table{
+#table2, #table3{
     width: 100%;
+    border-spacing: 2px;
 }
+th{
+    background-color: beige;
+    text-align: left;
+}
+
+#myCaption{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: beige;
+}
+/* to have zebra stripes use :nth-child(even) */

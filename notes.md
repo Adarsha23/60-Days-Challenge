@@ -10,6 +10,11 @@
     - [2. HTML Links](#2-html-links)
     - [3. HTML Images](#3-html-images)
     - [4. HTML Tables](#4-html-tables)
+- [Day 03- Learning Basic HTML](#day-03--learning-basic-html)
+  - [Points to remember:](#points-to-remember-2)
+    - [1. HTML Block and Inline Elements](#1-html-block-and-inline-elements)
+    - [2. The \<div\> element](#2-the-div-element)
+    - [3. The \<span\> element](#3-the-span-element)
 
 
 # Day 01- Learning Basic Html
@@ -81,4 +86,29 @@ HTML stands for HyperText Markup Language. It is used on the frontend and gives 
 3. To add a border to the table, use the border attribute in css.
 4. To maintain the table layout, add the width attribute to the <table> element.
 5. To maintain the row layout, add the height attribute to the <tr> element.
-6. 
+6. To have a single table header span over multiple columns, use the colspan attribute on the <th> element.
+7. To have a single table header span over multiple rows, use the rowspan attribute on the <th> element.
+8. To have a zebra-striped table, use the :nth-child() selector and add a background-color to all even (or odd) table rows.
+
+# Day 03- Learning Basic HTML
+## Points to remember:
+### 1. HTML Block and Inline Elements
+1. HTML elements are either inline or block.
+2. Block-level elements always start on a new line and take up the full width available (stretches out to the left and right as far as it can).
+3. Inline elements do not start on a new line and only takes up as much width as necessary.
+
+### 2. The &lt;div&gt; element
+1. The <div> element is often used as a container for other HTML elements.
+2. It defines a block level section in a document.
+3. The <div> element has no required attributes, but style, class and id are common.
+4. When used together with CSS, the <div> element can be used to style blocks of content:
+5. The <div> element is easily styled by using the class or id attribute.
+6. Any type of content can be put inside the <div> element!
+   
+### 3. The &lt;span&gt; element
+1. The <span> element is an inline container used to mark up a part of a text, or a part of a document.
+2. The <span> element has no required attributes, but style, class and id are common.
+3. When used together with CSS, the <span> element can be used to style parts of the text:
+4. The <span> element is easily styled by using the class or id attribute.
+5. Any type of content can be put inside the <span> element!
+6. The <span> element is an inline element, and cannot contain block elements such as <div>.
