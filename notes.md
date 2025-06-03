@@ -81,13 +81,13 @@ HTML stands for HyperText Markup Language. It is used on the frontend and gives 
 6. You can also add backgorund image to a specific paragraph or even the whole page.
 
 ### 4. HTML Tables
-1. The HTML <table> tag defines an HTML table.
-2. Each table row is defined with a <tr> tag. Each table header is defined with a <th> tag. Each table data/cell is defined with a <td> tag.
+1. The HTML table> tag defines an HTML table.
+2. Each table row is defined with a tr> tag. Each table header is defined with a th> tag. Each table data/cell is defined with a td> tag.
 3. To add a border to the table, use the border attribute in css.
-4. To maintain the table layout, add the width attribute to the <table> element.
-5. To maintain the row layout, add the height attribute to the <tr> element.
-6. To have a single table header span over multiple columns, use the colspan attribute on the <th> element.
-7. To have a single table header span over multiple rows, use the rowspan attribute on the <th> element.
+4. To maintain the table layout, add the width attribute to the table> element.
+5. To maintain the row layout, add the height attribute to the tr> element.
+6. To have a single table header span over multiple columns, use the colspan attribute on the th> element.
+7. To have a single table header span over multiple rows, use the rowspan attribute on the th> element.
 8. To have a zebra-striped table, use the :nth-child() selector and add a background-color to all even (or odd) table rows.
 
 # Day 03- Learning Basic HTML
