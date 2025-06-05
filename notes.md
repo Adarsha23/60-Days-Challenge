@@ -27,6 +27,7 @@
     - [8. HTML Semmantic Elements](#8-html-semmantic-elements)
     - [9. HTML Forms](#9-html-forms)
     - [10. HTML Video and Audio](#10-html-video-and-audio)
+- [Day 05 - Learning Basic HTML](#day-05---learning-basic-html)
 
 
 # Day 01- Learning Basic Html
@@ -229,7 +230,16 @@ HTML stands for HyperText Markup Language. It is used on the frontend and gives 
 4. The <video> and <audio> elements require a source element to specify the media source.
 5. The <source> element can be used to specify alternative video/audio files which the browser may choose from. The browser will use the first recognized format.
 6. The text between the <video> and </video> tags will only be displayed in browsers that do not support the <video> element.
-7. To add autoplay for the video, use the autoplay attribute:
+7. To add autoplay for the video, use the autoplay attribute
+
+# Day 05 - Learning Basic HTML
+1. All browsers have a set of built-in APIs to support complex  operations.
+2. APIs are used to access data from external sources. Some of the examples of APIs are:
+  - Geolocation API - This API is used to access the current location of the user.
+  - Web Storage API - This API is used to store data locally in the browser.
+  - Web Workers API - This API is used to run scripts in the background.
+  - Drag and Drop API - This API allows you to drag and drop elements in the browser.
+  - Server-Sent Events API - This API is used to receive events from the server.
 
 
    
