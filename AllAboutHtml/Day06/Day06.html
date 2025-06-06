@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-06</title>
+    <link rel="stylesheet" href="Day06.css">
+    <link rel="icon" href="../../images/logo.png" type="image/x-icon">
+</head>
+<body>
+    <div id="Header">
+        <h1>CSS-D1</h1>
+    </div>
+    <section id="Content">
+        <h2 id="subHeading">CSS Selectors</h2>
+        <div id="content">
+            <p class="selectorExample">Selectors are used to find or select elements from the HTML. <br>
+            <dl>
+                <ol>
+               <li> <dt>Simple Selectors</dt></li>
+                <dd>Select elements using name, id, or class.</dd> <br>
+              <li>  <dt>Combinator selectors</dt>
+                <dd>Select elements based on a certain relationship between them</dd> <br>
+             <li>   <dt>Pseudo-class selectors</dt>
+                <dd>Select elements based on a certain state</dd> <br>
+              <li>  <dt>Pseudo-elements selectors</dt>
+                <dd>Select and style a part of an element</dd> <br>
+              <li>  <dt>Attribute selectors</dt>
+                <dd>Select elements based on their attributes and values</dd> <br>
+            </ol>
+            </dl></p>
+            <p class="selectorExample">I used the class element and selected all "p" tags with the same class name and styled them to have color red and aligned them to the center</p>
+            </div>
+            <div id="subHeading"><h2>CSS Borders</h2></div>
+            <div id="content">
+                <p>CSS borders can be styled using the border property in CSS. The properties of borders are given below:
+                    <ul>
+                        <li>border-style</li>
+                        <li>border-width</li>
+                        <li>border-color</li>
+                        <li>border-radius</li>
+                    </ul>
+                <p>Lets try adding border to a text</p>
+                <p id="border">normal border</p>
+                <p id="border1">Dashed border</p>
+                <p id="border2">Dotted border</p>
+                <p id="border3">Double border</p>
+                <p id="border4">Ridge border</p>
+                <p id="border5">Inset border</p>
+                <p id="border6">Outset border</p>
+                <p id="border7">Mixed border</p>
+                <p>Now lets play with the border width</p>
+                <p id="border8">5px on top, bottom and 20px on the sides</p>
+                <p id="border9">25px top, 10px right, 4px bottom and 35px left</p>
+                
+                </div>
+            
+            <div id="subHeading"><h2>CSS colors</h2></div>
+            <div id="content">
+                <p>In CSS, colors can also be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values:</p>
+                <p style="background-color: rgb(255, 99, 71);">This is styled using rgb values</p>
+                <p style="background-color: #333; color: whitesmoke;">This is styled using HEX values</p>
+                <p style="background-color: hsl(9, 100%, 64%);">This is styled using HSL values</p>
+                <p>You can also play with the transparency like this:</p>
+                <p style="background-color: rgba(255, 99, 71, 0.5);">This is styled using rgb values</p>
+                <p style="background-color: hsla(9, 100%, 64%, 0.5);">This is styled using HSL values</p>
+            </div>
+            <div id="subHeading"><h2>CSS Backgrounds</h2></div>
+            <div id="content">
+                <p>CSS background properties are used to define the background effects for elements.</p>
+                <p>The common background properties are: <br></p>
+                <ul>
+                    <li>background-color</li>
+                    <li>background-image</li>
+                    <li>background-repeat</li>
+                    <li>background-attachment</li>
+                    <li>background-position</li>
+                </ul>
+                <p>Lets try adding background color to a div</p>
+                <div id="bgColor">
+                    <h4>This is a div showing background color</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis cumque consequatur ipsa culpa. Libero molestias magni sed, excepturi obcaecati optio, ipsum, veritatis explicabo officia aut sit maxime? Doloremque, eaque similique.</p>
+                </div>
+                <p>Lets try adding background Image to a div</p>
+                <div id="bgImage">
+                    <h4>This is a div with background Image</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex iure ipsa voluptatibus, vero unde labore neque porro molestiae tempore quo quisquam fugiat, praesentium quas dolorem facilis eligendi, laboriosam laudantium exercitationem.</p>
+                </div>
+                <p>Lets play with the background-attachment property</p>
+                <div id="bgAttachment">
+                <p>The background-attachment property specifies whether the background image should scroll or be fixed (will not scroll with the rest of the page):</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate et deserunt libero consectetur quasi vitae alias architecto tenetur distinctio illum, quos adipisci ducimus excepturi! Cumque nisi distinctio dolore pariatur sint?</p>
+            </div>
+                
+            </div>
+
+            <div id="subHeading"><h2>CSS Margins</h2></div>
+            <div id="content">
+                <p id="margin">The CSS margin properties are used to create space around elements, outside of any defined borders. Lets play with the margin by making 3 boxes</p>
+                <div class="box">Box 1</div>
+                <div class="box">Box 2</div>
+                <div class="box">Box3</div>
+
+            </div>
+            </div>
+
+            <div id="subHeading"><h2>CSS Padding</h2></div>
+            <div id="content">
+                <p id="padding">The CSS padding properties are used to generate space around an element's content, inside of any defined borders. Now lets play with the padding of this paragraph.</p>
+                <p>lets try creating 2 boxes one inside the other</p>
+                <div class="out">
+                    <div class="in">Im inside</div>
+                </div>
+            </div>
+            <div id="subHeading"><h2>CSS Height and Width</h2></div>
+            <div id="content">
+            <pre>The height and width properties are used to set the height and width of an element.
+
+The height and width properties do not include padding, borders, or margins. It sets the height/width of the area inside the padding, border, and margin of the element.</pre>   
+            <p id="hw">This element has a height of 200 pixels and a width of 300 pixels</p>
+            <hr>
+            <h3>Setting the max width</h3>
+            <div id="hw2">
+                <p>This div element has a height of 100 pixels and a max-width of 500 pixels.</p>
+            </div>
+            </div>
+
+                        
+            
+
+    </section>
+
+</body>
+</html>

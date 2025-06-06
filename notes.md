@@ -28,6 +28,14 @@
     - [9. HTML Forms](#9-html-forms)
     - [10. HTML Video and Audio](#10-html-video-and-audio)
 - [Day 05 - Learning Basic HTML](#day-05---learning-basic-html)
+    - [1. HTML sections](#1-html-sections)
+- [Day 06 - Learning Basic CSS](#day-06---learning-basic-css)
+    - [1. What is CSS?](#1-what-is-css)
+    - [2. CSS Syntax](#2-css-syntax)
+    - [3. CSS Selectors](#3-css-selectors)
+    - [4. CSS Background](#4-css-background)
+    - [5. CSS Margin and Padding](#5-css-margin-and-padding)
+    - [6. CSS width and height](#6-css-width-and-height)
 
 
 # Day 01- Learning Basic Html
@@ -233,13 +241,63 @@ HTML stands for HyperText Markup Language. It is used on the frontend and gives 
 7. To add autoplay for the video, use the autoplay attribute
 
 # Day 05 - Learning Basic HTML
-1. All browsers have a set of built-in APIs to support complex  operations.
-2. APIs are used to access data from external sources. Some of the examples of APIs are:
-  - Geolocation API - This API is used to access the current location of the user.
-  - Web Storage API - This API is used to store data locally in the browser.
-  - Web Workers API - This API is used to run scripts in the background.
-  - Drag and Drop API - This API allows you to drag and drop elements in the browser.
-  - Server-Sent Events API - This API is used to receive events from the server.
+### 1. HTML sections
+1. HTML sections are used to group related content together.
+2. Its main purpose is to make it easier to style the content.
+3. The <section> element defines sections in a document, such as chapters, headers, footers, or any other sections of the document.
+4. The <article> element specifies independent, self-contained content.
+
+# Day 06 - Learning Basic CSS
+### 1. What is CSS?
+1. CSS stands for Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen, paper, or in other media.
+2. CSS saves a lot of work. It can control the layout of multiple web pages all at once.
+3. Basically CSS is used to bring HTML elements to life, make them pretty.
+
+### 2. CSS Syntax
+1. A CSS rule consists of a selector and a declaration block.
+2. The selector points to the HTML element you want to style.
+3. The declaration block contains one or more declarations separated by semicolons.
+4. Each declaration includes a CSS property name and a value, separated by a colon.
+5. Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.
+
+### 3. CSS Selectors
+1. The CSS selectors are used to "find" (or select) the HTML elements you want to style.
+2. We can divide CSS selectors into five categories:
+   - Simple selectors (select elements based on name, id, class)
+   - Combinator selectors (select elements based on a specific relationship between them)
+   - Pseudo-class selectors (select elements based on a certain state)
+   - Pseudo-elements selectors (select and style a part of an element)
+   - Attribute selectors (select elements based on an attribute or attribute value)
+
+### 4. CSS Background
+1. CSS background properties are used to define the background effects for a webpage
+2. There are five background properties:
+   - background-color:
+      Background color lets you add color to a background of an  element.
+
+   - background-image:
+      Background image lets you add a background image to an element.
+   
+   - background-repeat:
+      Background repeat lets you specify whether or not a background image should repeat to cover the entire element.
+   
+   - background-position:
+      Background position lets you specify the position of a background image. Like where the image should be placed.
+  
+   - background-attachment:
+      Background attachment lets you specify whether a background image should stay in one position, or move as the user scrolls up and down the page.
+
+### 5. CSS Margin and Padding
+1. Margin is the space around an element's border, while padding is the space between an element's border and the element's content.
+2. To make sure the padding does not add onto the width of an element, set the box-sizing property to border-box.
+
+### 6. CSS width and height
+1. The CSS width and height properties are used to set the width and height of an element.
+2. Max-width:
+   - The max-width property is used to set the maximum width of an element.
+   - It comes in handy when the browser window is smaller than the width of the element.
+   - If you for some reason, use both the width and the max-width on the same element, and the value of the max-width is smaller than the value of the width, the max-width will be used (and not the width).
+
 
 
    
