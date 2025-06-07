@@ -1,0 +1,115 @@
+*{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #333;
+    color: whitesmoke;
+}
+#header{
+    background-color: beige;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: xxx-large;
+}
+#subHeading{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    border-style: dotted;
+    padding: 10px;
+    margin: 20px;
+    font-size: xx-large;
+}
+#content{
+    background-color: pink;
+    color: black;
+    border-radius: 10px;
+    border: 2px dashed black;
+    padding: 20px;
+    margin: 20px;
+}
+#margin{
+    background-color: Red;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 30px 100px;
+    border: 3px dashed black;
+}
+#border{
+    background-color: gray;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px 100px;
+    margin-top: 10px;
+    border: 3px solid black;
+}
+#padding{
+    background-color:green ;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 50px;
+    border-radius: 4px;
+    height: 250px;
+    margin-bottom: 30px;
+    text-align: center;
+    outline: 3px solid black;
+}
+#Content{
+    background-color: pink;
+    color: white;
+    border: 3px dashed black;
+    height: 150px;
+    margin-top:20px;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#color{
+    color: purple;
+}
+hr{
+    border: 2px solid black;
+}
+.button{
+    background-color: violet;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: blueviolet;
+    color: #333;
+}
+#customList li{
+    list-style: none;
+    padding: 0;
+
+}
+#customList li{
+    position: relative;
+    padding-left: 20px;
+}
+#customList li::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 20px;
+    height: 20px;
+    background-image: url(../../images/image.png);
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-size: contain;
+}

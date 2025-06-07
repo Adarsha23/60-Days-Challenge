@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-07</title>
+    <link rel="stylesheet" href="Day07.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="icon" href="../../images/logo.png">
+</head>
+<body>
+    <div id="header">CSS Day-02</div>
+    <section id="body">
+        <h3 id="subHeading">CSS Box Model</h3>
+        <div id="content">
+            <p>The CSS box model is a container that contains multiple properties including borders, margin, padding, and the content itself. It is used to create the design and layout of web pages. It can be used as a toolkit for customizing the layout of different elements. The web browser renders every element as a rectangular box according to the CSS box model. Box-Model has multiple properties in CSS. Let's draw the box model using HTML and CSS: <br></p>
+            <div id="margin"><strong>Margin</strong>
+                <div id="border"><strong>Border</strong>
+                <div id="padding"><strong>Padding</strong>
+                    <div id="Content"><strong>Content</strong>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div id="subHeading">CSS Text</div>
+        <div id="content" style="text-align: justify;">
+            <p>CSS has a lot of properties for formatting text. We will go through some of them</p>
+            <ol>
+                <dl>
+                    <li><dt><strong>Text Color</strong></dt></li>
+                    <dd id="color">The color property is used to set the color of the text</dd>
+                    <li><dt><strong>Text Alignment</dt></strong></li>
+                    <dd>The text-align proeprty is used to set the horizontal alignment of the text. For eg:</dd><br>
+                    <dd style="text-align: left;">I am left</dd>
+                    <dd style="text-align: center;">I am center</dd>
+                    <dd style="text-align: right;">I am right</dd>
+                    <li><dt><strong>Text Decoration</strong></dt></li>
+                    <dd>The text-decoration property is used to set or remove decorations from text.</dd> <br>
+                    <dd style="text-decoration: overline dashed red;">This is an overline decoration</dd>
+                    <dd style="text-decoration: line-through dotted purple;">This is a line-through decoration</dd>
+                    <dd style="text-decoration-line: underline;">This is an underline decoration</dd><br>
+                    <dd style="text-decoration-line: underline overline;">This is an underline overline decoration</dd>
+                    <p>With text decoration You can also remove that ugli default underline from HTML links like this: <br></p>
+                    <a href="https://www.linkedin.com/in/adarsha-prasai-637b49283/" style="text-decoration: none;">Link with no underline</a><br>
+                    <li><dt><strong>Text Transformation</strong></dt></li>
+                        <dd>Text Transformation can be used to change letters to uppercase or lowercase. for eg: <br></dd>
+                        <p style="text-transform: uppercase;">This text is transformed to uppercase</p>
+                        <p style="text-transform: lowercase;">THIS teXt Is tRansfOrmed to lOweRcAse</p>
+                        <p style="text-transform: capitalize;">This text is capitalized</p>
+                    <li><dt><strong>Text Spacing</strong></dt></li>
+                    <ul>
+                        <li><dt>Text-indent</dt></li>
+                        <dd>The text-indent property is used to specify the indentation of the first line of a text:</dd>
+                        <p style="text-indent: 4cm;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eaque quis ipsa adipisci nam quo placeat nostrum quam maxime labore? Animi, laudantium quibusdam! Veritatis quas explicabo earum et ullam asperiores. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat hic facere, esse explicabo nemo omnis beatae ratione architecto vero blanditiis ducimus recusandae praesentium dolor nisi enim consequatur repellendus accusamus doloribus.</p>
+                        <hr>
+                        <li><dt>Letter Spacing</dt></li>
+                        <dd>The letter-spacing property is used to specify the space between the characters in a text:</dd>
+                        <p style="letter-spacing: 5px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate ipsum, est sit, alias impedit repellendus deleniti recusandae eum voluptatem quia esse sunt mollitia optio, harum at repudiandae ex ipsam corrupti. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat quae voluptatem quisquam nobis minima perspiciatis error dicta, id omnis nisi inventore harum non debitis culpa animi adipisci porro, at quas.</p>
+                        <strong>Negative letter spacing:</strong>
+                        <p style="letter-spacing: -3px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, consectetur vero? Ex perferendis assumenda tempore dolor doloremque magni quas cum ratione, neque non iure sequi hic laborum pariatur. Animi, omnis.</p>
+                        <hr>
+                        <li><dt>Word Spacing</dt></li>
+                        <dd>The word-spacing property is used to specify the space between the words in a text:</dd>
+                        <p style="word-spacing: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, tenetur. Sint ducimus rerum deleniti, velit sunt illum suscipit deserunt? Quidem cupiditate facilis ea labore in eius, quae totam iusto molestiae?</p>
+                        <hr>
+                        <li><dt>Line height</dt></li>
+                        <dd>The line-height property is used to specify the space between lines:</dd>
+                        <p style="line-height: 3cm;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, aperiam! Nesciunt omnis magnam, itaque repellendus et suscipit officiis laborum deserunt illum ullam nobis eligendi obcaecati voluptate aut? Nobis, fuga a? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, est, fugit minus nihil at reprehenderit repellendus itaque suscipit iure officiis laboriosam quis. Sint natus ducimus tenetur facere quasi minus consequuntur!</p>
+                    </ul>
+                    <li><dt><strong>Text shadow effect</strong></dt></li>
+                    <dd>The text-shadow property adds shadow to text.</dd>
+                    <!-- first value is horizontal shadow, second is vertical shadow, third is blur, fourth is color -->
+                    <h3 style="text-shadow: 2px 2px 5px red;">Do you like my style?</h3>
+                    <p>Lets try something fancy: </p>
+                    <h2 style="text-shadow: 2px 2px 2px black, 3px 3px 10px blue, 0 0 30px darkblue; color: white;">My style is better!</h2>
+
+
+                </dl>
+            </ol>
+        </div>
+        <div id="subHeading">Css Fonts</div>
+        <div id="content">This is a really simple topic, as choosing the right font for your websitw is important, CSS Fonts gives you plenty of options: <br>
+        <p>There are 5 generic font families: <br></p>
+        <pre><ol>
+          <li>  <strong>Serif</strong> fonts have a small stroke at the edges of each letter. They create a sense of formality and elegance.
+           <li> <strong>Sans-serif</strong> fonts have clean lines (no small strokes attached). They create a modern and minimalistic look.
+           <li> <strong>Monospace</strong> fonts - here all the letters have the same fixed width. They create a mechanical look. 
+           <li> <strong>Cursive</strong> fonts imitate human handwriting.
+           <li> <strong>Fantasy</strong> fonts are decorative/playful fonts.
+        </ol>
+        </pre>
+        </div>
+        <div id="subHeading">Icons</div>
+        <div id="content">
+            <p>There are several ways to add icons to your webpage, I personally prefer google icons. add &lt;link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"&gt; inside the &lt;head&gt; section of your HTML page. The use the &lt;i&gt; tag</p>
+            <i class="material-icons">cloud</i><br>
+            <i class="material-icons">book</i><br>
+            <i class="material-icons">computer</i><br>
+            <i class="material-icons">traffic</i><br>
+            <i class="material-icons">train</i><br>
+            <i class="material-icons">airplanemode_active</i><br>
+        </div>
+        <div id="subHeading">Links</div>
+        <div id="content">
+            <p>Links can be styled in many ways through CSS, Let's try making a button link using CSS:</p>
+            <a href="https://www.google.com" target="_blank" class="button">Google</a>  
+        </div>
+        <div id="subHeading">CSS Lists</div>
+        <div id="content">We have aready made lists with HTML without styling. Now, lets try makin 'em pretty.
+        <h3>Different list item markers:</h3>
+        <ul style="list-style-type: circle;">
+            <li>I</li>
+            <li>am</li>
+            <li>a</li>
+            <li>list</li>
+        </ul>
+        <ul style="list-style-type: square;">
+            <li>I</li>
+            <li>am</li>
+            <li>another</li>
+            <li>list</li>
+            </ul>
+        <ol style="list-style-type: lower-alpha;">
+            <li>I</li>
+            <li>am</li>
+            <li>another</li>
+            <li>list</li>
+        </ol>
+        <ol style="list-style-type:lower-roman;">
+            <li>I</li>
+            <li>am</li>
+            <li>another</li>
+            <li>list</li>
+        </ol>
+        <p>You can also use cutom images as list markers like:</p>
+        <ul id="customList">
+            <li>I</li>
+            <li>am</li>
+            <li>another</li>
+            <li>list</li>
+        </ul>
+
+
+    </div>
+    </section>
+</body>
+</html>

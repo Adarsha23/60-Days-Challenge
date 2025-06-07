@@ -36,6 +36,8 @@
     - [4. CSS Background](#4-css-background)
     - [5. CSS Margin and Padding](#5-css-margin-and-padding)
     - [6. CSS width and height](#6-css-width-and-height)
+- [Day 07 - Learning Basic CSS](#day-07---learning-basic-css)
+    - [1. CSS Box Model](#1-css-box-model)
 
 
 # Day 01- Learning Basic Html
@@ -297,6 +299,12 @@ HTML stands for HyperText Markup Language. It is used on the frontend and gives 
    - The max-width property is used to set the maximum width of an element.
    - It comes in handy when the browser window is smaller than the width of the element.
    - If you for some reason, use both the width and the max-width on the same element, and the value of the max-width is smaller than the value of the width, the max-width will be used (and not the width).
+
+# Day 07 - Learning Basic CSS
+### 1. CSS Box Model
+1. The CSS box model is essentially a box that wraps around every HTML element.
+2. It consists of: margins, borders, padding, and the actual content.
+3. The box model allows us to add a border around elements, and to define space between elements.
 
 
 
