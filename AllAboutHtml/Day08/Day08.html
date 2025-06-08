@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-08</title>
+    <link rel="stylesheet" href="Day08.css">
+    <link rel="icon" href="../../images/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">CSS-Day03</div>
+    <section id="body">
+        <div id="subHeading">Continuing Lists</div>
+        <div id="content">
+            <p style="text-align: center;">Today we will pick it up from Positioning the list item markers. <br> There are two ways you can position the markers. "list-style-position: inside and outside. Let's try doing both:"</p>
+            <h3 style="text-align: center;">list-style-position:inside</h3>
+            <ul id="inside">
+                <li>Coffee - Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia modi non voluptatum fugiat dolor eaque officiis placeat similique asperiores repudiandae. Quas quibusdam aliquid assumenda! Nemo quo distinctio inventore tempora suscipit.</li>
+                <li>Tea - Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex cumque amet est, accusantium illum possimus quo labore ipsam cum a rem vel quidem numquam adipisci atque alias provident inventore facere.</li>
+                <li>Milk - Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi eligendi excepturi ipsum autem ab, ut ducimus magnam iusto voluptates, totam esse fugit iste? Perspiciatis fuga quidem expedita distinctio maxime quam!</li>
+                <li>Beer - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, a. Libero corporis at magnam quisquam voluptates delectus mollitia officiis suscipit ipsam esse rem quae doloremque quidem, tempora, consequuntur ullam saepe.</li>
+                <li>Vodka - Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente rerum modi, magnam dolorem aliquam maiores placeat, possimus praesentium similique iure nihil. Quis voluptatibus magni tenetur atque laborum facilis, blanditiis saepe.</li>
+            </ul>
+            <h3 style="text-align: center;">list-style-position:outide</h3>
+            <ul id="outside">
+                <li>Coffee - Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia modi non voluptatum fugiat dolor eaque officiis placeat similique asperiores repudiandae. Quas quibusdam aliquid assumenda! Nemo quo distinctio inventore tempora suscipit.</li>
+                <li>Tea - Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex cumque amet est, accusantium illum possimus quo labore ipsam cum a rem vel quidem numquam adipisci atque alias provident inventore facere.</li>
+                <li>Milk - Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi eligendi excepturi ipsum autem ab, ut ducimus magnam iusto voluptates, totam esse fugit iste? Perspiciatis fuga quidem expedita distinctio maxime quam!</li>
+                <li>Beer - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, a. Libero corporis at magnam quisquam voluptates delectus mollitia officiis suscipit ipsam esse rem quae doloremque quidem, tempora, consequuntur ullam saepe.</li>
+                <li>Vodka - Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente rerum modi, magnam dolorem aliquam maiores placeat, possimus praesentium similique iure nihil. Quis voluptatibus magni tenetur atque laborum facilis, blanditiis saepe.</li>
+            </ul>
+        </div>
+        <div id="subHeading">CSS Tables</div>
+        <div id="content">
+            <p style="text-align: center;">The looks of an HTML table can be greatly improved with CSS. This is a normal table with no styling:</p>
+            <table>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Savings</th>
+                </tr>
+                <tr>
+                    <td>Adarsha</td>
+                    <td>Prasai</td>
+                    <td>$200</td>
+                </tr>
+                <tr>
+                    <td>Pratha</td>
+                    <td>Pokharel</td>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <td>Abhinab</td>
+                    <td>Prasai</td>
+                    <td>$500</td>
+                </tr>
+            </table>
+            <p style="text-align: center;">Now lets add borders, colors, and align the table properly:</p>
+            <table id="table">
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Savings</th>
+                </tr>
+                <tr>
+                    <td>Adarsha</td>
+                    <td>Prasai</td>
+                    <td>$200</td>
+                </tr>
+                <tr>
+                    <td>Pratha</td>
+                    <td>Pokharel</td>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <td>Abhinab</td>
+                    <td>Prasai</td>
+                    <td>$500</td>
+                </tr>
+            </table>
+            <h3 style="text-align: center;">Responsive table</h3>
+            <p style="text-align: center;">The tables above were not reponsive. A responsive table will display a horizontal scroll bar if the screen is too small to display the full content:</p>
+            <div style="overflow-x:auto;">
+                <table id="table">
+                    <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Savings</th>
+                    </tr>
+                    <tr>
+                        <td>Adarsha</td>
+                        <td>Prasai</td>
+                        <td>$200</td>
+                    </tr>
+                    <tr>
+                        <td>Pratha</td>
+                        <td>Pokharel</td>
+                        <td>$100</td>
+                    </tr>
+                    <tr>
+                        <td>Abhinab</td>
+                        <td>Prasai</td>
+                        <td>$500</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="subHeading">CSS Layout- Display Property</div>
+        <div id="content">
+            <p>The display property is the most important CSS property for controlling layout. It is used to specify how an element is shown on a webpage. <br> Every HTML element has a default display value, depending on what type of element it is. The default display value for most elements is block or inline. <br>The display property is used to change the default display behavior of HTML elements.</p>
+            <table id="table">
+                <tbody><tr>
+                  <th style="width:25%">Value</th>
+                  <th>Description</th>
+                </tr>
+                  <tr>
+                  <td>inline</td>
+                  <td>Displays an element as an inline element</td>
+                  </tr>
+                <tr>
+                  <td>block</td>
+                  <td>Displays an element as a block element</td>
+                  </tr>
+                <tr>
+                  <td>contents</td>
+                  <td>Makes the container disappear, making the child elements children of the 
+                  element the next level up in the DOM</td>
+                  </tr>
+                <tr>
+                  <td>flex</td>
+                  <td>Displays an element as a block-level flex container</td>
+                  </tr>
+                <tr>
+                  <td>grid</td>
+                  <td>Displays an element as a block-level grid container</td>
+                  </tr>
+                <tr>
+                  <td>inline-block</td>
+                  <td>Displays an element as an inline-level block container. The element itself is formatted as an inline 
+                  element, but you can apply height and width values</td>
+                  </tr>
+                <tr>
+                  <td>inline-flex</td>
+                  <td>Displays an element as an inline-level flex container</td>
+                  </tr>
+                <tr>
+                  <td>inline-grid</td>
+                  <td>Displays an element as an inline-level grid container</td>
+                  </tr>
+                <tr>
+                  <td>inline-table</td>
+                  <td>The element is displayed as an inline-level table</td>
+                  </tr>
+                <tr>
+                  <td>list-item</td>
+                  <td>Let the element behave like a &lt;li&gt; element</td>
+                  </tr>
+                <tr>
+                  <td>run-in</td>
+                  <td>Displays an element as either block or inline, depending on context </td>
+                </tr>
+                  <tr>
+                  <td>table</td>
+                  <td>Let the element behave like a &lt;table&gt; element</td>
+                  </tr>
+                <tr>
+                  <td>table-caption</td>
+                  <td>Let the element behave like a &lt;caption&gt; element</td>
+                  </tr>
+                <tr>
+                  <td>
+                    table-column-group</td>
+                  <td>Let the element behave like a &lt;colgroup&gt; element</td>
+                  </tr>
+                <tr>
+                  <td>table-header-group</td>
+                  <td>Let the element behave like a &lt;thead&gt; element</td>
+                  </tr>
+                <tr>
+                  <td>table-footer-group</td>
+                  <td>Let the element behave like a &lt;tfoot&gt; element</td>
+                  </tr>
+                <tr>
+                  <td>table-row-group</td>
+                  <td>Let the element behave like a &lt;tbody&gt; element</td>
+                  </tr>
+                <tr>
+                  <td>table-cell</td>
+                  <td>Let the element behave like a &lt;td&gt; element</td>
+                  </tr>
+                <tr>
+                  <td>table-column</td>
+                  <td>Let the element behave like a &lt;col&gt; element</td>
+                  </tr>
+                <tr>
+                  <td>table-row</td>
+                  <td>Let the element behave like a &lt;tr&gt; element</td>
+                  </tr>
+                <tr>
+                  <td>none</td>
+                  <td>The element is completely removed</td>
+                </tr>
+                <tr>
+                  <td>initial</td>
+                  <td>Sets this property to its default value</td>
+                  </tr>
+                <tr>
+                  <td>inherit</td>
+                  <td>Inherits this property from its parent element</td>
+                  </tr>
+                </tbody></table>
+                
+        </div>
+
+    </section>
+</body>
+</html>
