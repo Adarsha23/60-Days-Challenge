@@ -15,6 +15,7 @@ Check the folders to see my daily progress. Feel free to fork the repo to keep u
 - [Day 07 (CSS Day 02) – CSS Basics](https://github.com/Adarsha23/60-Days-Challenge/commit/0a101e80950093495b60210d0fbc04d8c96791f7)
 - [Day 08 (CSS Day 03) – CSS Basics](https://github.com/Adarsha23/60-Days-Challenge/commit/2ab70aff39430353c546639f9aaf357053912a81)
 - [Day 09 (Random Revision) – CSS Basics](https://github.com/Adarsha23/60-Days-Challenge/commit/cc9ee27af516bd8749026709f38ffef474ba4184)
+- [Day 10 (CSS Day 04) – CSS Basics](https://github.com/Adarsha23/60-Days-Challenge/commit/93df40bcb8dbfecbd536bdc182efa94518dc635c)
 
 Made with passion and caffeine
 
