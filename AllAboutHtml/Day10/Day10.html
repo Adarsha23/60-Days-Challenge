@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-10</title>
+    <link rel="stylesheet" href="Day10.css">
+    <link rel="icon" href="../../images/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">CSS-Day10</div>
+    <section id="body">
+        <div id="subHeading">Max-width Property</div>
+        <div id="content">
+            <p style="text-align: center;">The `max-width` property specifies the maximum width of an element.  It prevents the value of the width property from becoming larger than `max-width`. The value can be specified in length units (px, em, etc.) or as a percentage of the containing element, or use the keyword `none` (default).
+            </p>
+            <div class="example" id="max-width-example">
+                This div element has a max-width of 600px.  Resize the browser window to see the effect.
+            </div>
+        </div>
+
+        <div id="subHeading">CSS Position Property</div>
+        <div id="content">
+            <p>The `position` property specifies the type of positioning method used for an element (static, relative, fixed, absolute, or sticky).
+            </p>
+            <ul>
+                <li><b>static:</b> Default value. Elements render in order, as they appear in the document flow.</li>
+                <li><b>relative:</b> The element is positioned relative to its normal position. Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.</li>
+                <li><b>fixed:</b> The element is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.  A fixed element does not leave a gap in the page where it would normally have been located.</li>
+                <li><b>absolute:</b> The element is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed). However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.</li>
+                <li><b>sticky:</b> The element is positioned based on the user's scroll position. A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).</li>
+            </ul>
+
+            <div class="example" id="relative-example">Relative
+                <div class="positioned" id="relative-positioned">Positioned Element</div>
+            </div>
+
+            <div class="example" id="fixed-example">Fixed</div>
+
+            <div class="example" id="absolute-example">Absolute
+                <div class="positioned" id="absolute-positioned">Positioned Element</div>
+            </div>
+
+            <div class="example" id="sticky-example">Sticky! Scroll to see the effect.</div>
+        </div>
+
+        <div id="subHeading">Z-index Property</div>
+        <div id="content">
+            <p>The `z-index` property specifies the stack order of an element. An element with a greater stack order is always in front of an element with a lower stack order.  `z-index` only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky) and flex items (elements that are direct children of a flex container).
+            </p>
+
+            <div class="example" id="z-index-example">
+                <div class="z-index-item" style="background-color: red; z-index: 3;">Red (z-index: 3)</div>
+                <div class="z-index-item" style="background-color: green; z-index: 2;">Green (z-index: 2)</div>
+                <div class="z-index-item" style="background-color: blue; z-index: 1;">Blue (z-index: 1)</div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
