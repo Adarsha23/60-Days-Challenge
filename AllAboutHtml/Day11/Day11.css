@@ -1,0 +1,67 @@
+body {
+    background-color: #333;
+    color: whitesmoke;
+    font-family: "Edu VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#header {
+    background-color: beige;
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    border: 2px dotted black;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 10px blue;
+}
+
+#subHeading {
+    background-color: aqua;
+    color: black;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 700;
+    border: 2px double whitesmoke;
+    text-shadow: 2px 2px 4px orange, 9px 9px 30px darkred;
+}
+
+#content {
+    background-color: #1E1E2F; /* deep space navy */
+    color: #F8F8F2; /* contrast text */
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.float-example {
+    overflow: auto; /* Clearfix for floated elements */
+    background-color: #777777;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.float-img {
+    float: left; /* Float the image to the left */
+    margin-right: 15px; /* Space between image and text */
+}
+
+.inline-block-example {
+    background-color: #777777;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.inline-block-item {
+    display: inline-block; /* Allow items to sit next to each other */
+    background-color: #1E1E2F;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
