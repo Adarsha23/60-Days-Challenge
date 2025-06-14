@@ -1,0 +1,99 @@
+body {
+    background-color: #282c34; /* Dark background for contrast */
+    color: #ffffff; /* Light text for readability */
+    font-family: "Edu VIC WA NT Hand", cursive; /* Font style */
+    line-height: 1.6; /* Improved line height for readability */
+}
+
+#header {
+    background-color: #61dafb; /* Light header */
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    border: 2px solid #21a1f1;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+#subHeading {
+    background-color: #4CAF50; /* Green subheading */
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 700;
+    border: 2px solid #388e3c;
+}
+
+#content {
+    background-color: #1E1E2F; /* Deep space navy */
+    color: #F8F8F2; /* Contrast text */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.navbar {
+    display: flex; /* Enable flexbox */
+    justify-content: space-around; /* Space items evenly */
+    background-color: #4CAF50; /* Green background for navbar */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+}
+
+.nav-item {
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for nav items */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.nav-item:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Horizontal Navigation Bar */
+.horizontal {
+    flex-direction: row; /* Horizontal layout */
+}
+
+/* Vertical Navigation Bar */
+.vertical {
+    flex-direction: column; /* Vertical layout */
+    align-items: flex-start; /* Align items to the start */
+}
+
+/* Centered Navigation Bar */
+.centered {
+    justify-content: center; /* Center items */
+}
+
+/* Card Grid */
+.card-grid {
+    display: grid; /* Enable grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive columns */
+    gap: 15px; /* Space between grid items */
+    padding: 20px;
+}
+
+.card {
+    background-color: #2196F3; /* Blue card background */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; /* Center text */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+}
