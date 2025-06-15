@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box; /* Apply box-sizing to all elements */
+}
+
+body {
+    background-color: #f0f0f0; /* Light background for contrast */
+    font-family: Arial, sans-serif; /* Font style */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.navbar {
+    display: flex; /* Enable flexbox for the navbar */
+    justify-content: space-around; /* Space items evenly */
+    align-items: center; /* Center items vertically */
+    background-color: #4CAF50; /* Green background for navbar */
+    padding: 15px; /* Padding for navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+.nav-item {
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for nav items */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.nav-item:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.content {
+    padding: 20px; /* Padding for main content */
+    text-align: center; /* Center text */
+}
+
+.card-grid {
+    display: grid; /* Enable grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Space between grid items */
+    margin-top: 20px; /* Margin above the grid */
+}
+
+.card {
+    background-color: #2196F3; /* Blue card background */
+    color: white; /* White text */
+    padding: 20px; /* Padding inside the card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    transition: transform 0.3s; /* Smooth transition */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+.footer {
+    background-color: #333; /* Dark footer background */
+    color: white; /* White text */
+    text-align: center; /* Center text */
+    padding: 15px; /* Padding for footer */
+    position: relative; /* Position relative for footer */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width */
+}
