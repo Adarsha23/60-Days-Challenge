@@ -1,0 +1,123 @@
+:root {
+    --primary-color: #4CAF50; /* Primary color */
+    --secondary-color: #2196F3; /* Secondary color */
+    --background-color: #333; /* Background color */
+    --text-color: #333; /* Text color */
+    --border-radius: 5px; /* Border radius */
+    --padding: 10px; /* Padding for inputs */
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.form-container {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid var(--text-color);
+    border-radius: var(--border-radius);
+    background-color: beige;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: var(--text-color);
+}
+
+/* Form Style 1: Minimalist */
+.form-style-1 input {
+    width: 100%;
+    padding: var(--padding);
+    border: 1px solid var(--text-color);
+    border-radius: var(--border-radius);
+    transition: border-color 0.3s;
+}
+
+.form-style-1 input:focus {
+    border-color: var(--primary-color);
+}
+
+.form-style-1 button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: var(--padding);
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-style-1 button:hover {
+    background-color: darkgreen;
+}
+
+/* Form Style 2: Modern */
+.form-style-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-style-2 input {
+    width: 80%;
+    padding: var(--padding);
+    border: 2px solid var(--secondary-color);
+    border-radius: var(--border-radius);
+    transition: border-color 0.3s;
+}
+
+.form-style-2 input:focus {
+    border-color: darkblue;
+}
+
+.form-style-2 button {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: var(--padding);
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-style-2 button:hover {
+    background-color: #1e88e5;
+}
+
+/* Form Style 3: Colorful */
+.form-style-3 {
+    background-color: #ffeb3b; /* Yellow background */
+    padding: 20px;
+    border-radius: var(--border-radius);
+}
+
+.form-style-3 input {
+    width: 100%;
+    padding: var(--padding);
+    border: 2px solid #f44336; /* Red border */
+    border-radius: var(--border-radius);
+    transition: border-color 0.3s;
+}
+
+.form-style-3 input:focus {
+    border-color: #d32f2f; /* Darker red on focus */
+}
+
+.form-style-3 button {
+    background-color: #f44336; /* Red button */
+    color: white;
+    padding: var(--padding);
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-style-3 button:hover {
+    background-color: #c62828; /* Darker red on hover */
+}
