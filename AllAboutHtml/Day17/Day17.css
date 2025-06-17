@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333; /* Light background for contrast */
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: whitesmoke; /* Dark text color */
+}
+
+.table-section, .list-section, .button-section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: beige; /* White background for sections */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* Styled Table */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove space between borders */
+}
+
+th, td {
+    padding: 12px; /* Padding for table cells */
+    border: 1px solid #ddd; /* Light gray border */
+    text-align: left; /* Left align text */
+}
+
+th {
+    background-color: #4CAF50; /* Green background for header */
+    color: white; /* White text for header */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray for even rows */
+}
+
+/* Styled Unordered List */
+ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+li {
+    background-color: #2196F3; /* Blue background for list items */
+    color: white; /* White text */
+    padding: 10px; /* Padding for list items */
+    margin: 5px 0; /* Margin between items */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Styled Buttons */
+button {
+    padding: 10px 20px; /* Padding for buttons */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    color: white; /* White text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+    margin: 5px; /* Margin between buttons */
+}
+
+.btn-primary {
+    background-color: #4CAF50; /* Green background */
+}
+
+.btn-primary:hover {
+    background-color: darkgreen; /* Darker green on hover */
+}
+
+.btn-secondary {
+    background-color: #2196F3; /* Blue background */
+}
+
+.btn-secondary:hover {
+    background-color: #1e88e5; /* Darker blue on hover */
+}
+
+.btn-danger {
+    background-color: #f44336; /* Red background */
+}
+
+.btn-danger:hover {
+    background-color: #c62828; /* Darker red on hover */
+}
