@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333 ; /* Light background for contrast */
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #f0f0f0; /* Dark text color */
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white; /* White background for sections */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* CSS Flexbox */
+.flex-container {
+    display: flex;
+    justify-content: space-around; /* Space items evenly */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+.flex-item {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 200px; /* Grow and shrink, with a base width of 200px */
+}
+
+/* HTML5 Forms */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* CSS Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 10px; /* Space between grid items */
+}
+
+.grid-item {
+    background-color: #2196F3; /* Blue background */
+    color: white; /* White text */
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px; /* Rounded corners */
+}
