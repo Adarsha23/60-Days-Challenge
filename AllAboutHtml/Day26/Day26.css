@@ -1,0 +1,143 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light background for contrast */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333; /* Dark text color */
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white; /* White background for sections */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* Basic Layout and Styling */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #4CAF50; /* Green background */
+    margin: 10px auto;
+}
+
+/* Responsive Design */
+.responsive-box {
+    width: 100%;
+    max-width: 300px;
+    height: 100px;
+    background-color: #2196F3; /* Blue background */
+    margin: 10px auto;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* CSS Transitions */
+.transition-box {
+    width: 100px;
+    height: 100px;
+    background-color: #FF5733; /* Red background */
+    margin: 10px auto;
+    transition: transform 0.5s ease, background-color 0.5s ease; /* Transition effects */
+}
+
+.transition-box:hover {
+    transform: scale(1.2); /* Scale up on hover */
+    background-color: #FFC107; /* Change color on hover */
+}
+
+/* CSS Animations */
+.animated-box {
+    width: 100px;
+    height: 100px;
+    background-color: #FFC107; /* Yellow background */
+    margin: 10px auto;
+    animation: bounce 1s infinite; /* Bouncing animation */
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0); /* Original position */
+    }
+    40% {
+        transform: translateY(-30px); /* Move up */
+    }
+    60% {
+        transform: translateY(-15px); /* Move down */
+    }
+}
+
+/* SVG Animation */
+.svg-box {
+    animation: growShrink 2s infinite alternate; /* Animation */
+}
+
+@keyframes growShrink {
+    0% {
+        r: 40; /* Initial radius */
+    }
+    100% {
+        r: 20; /* Shrink radius */
+    }
+}
+
+/* Hover Effect to Reveal Content */
+.hover-reveal-box {
+    width: 200px;
+    height: 100px;
+    background-color: #4CAF50; /* Green background */
+    margin: 0 auto;
+    position: relative; /* Positioning for hidden content */
+    overflow: hidden; /* Hide overflow */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.hidden-content {
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.5s ease; /* Transition for opacity */
+    position: absolute; /* Positioning for reveal */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Centering */
+}
+
+.hover-reveal-box:hover .hidden-content {
+    opacity: 1; /* Reveal on hover */
+}
+
+/* Shake Animation */
+.shake-alert {
+    display: inline-block; /* Allow transformation */
+    padding: 10px;
+    background-color: #FFC107; /* Yellow background */
+    border: 1px solid #FF9800; /* Orange border */
+    border-radius: 5px; /* Rounded corners */
+    animation: shake 0.5s infinite; /* Shake animation */
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 0); }
+    25% { transform: translate(-1px, 0); }
+    50% { transform: translate(1px, 0); }
+    75% { transform: translate(-1px, 0); }
+    100% { transform: translate(0, 0); }
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666; /* Gray text color */
+}
