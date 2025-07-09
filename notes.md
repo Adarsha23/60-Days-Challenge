@@ -38,6 +38,8 @@
     - [6. CSS width and height](#6-css-width-and-height)
 - [Day 07 - Learning Basic CSS](#day-07---learning-basic-css)
     - [1. CSS Box Model](#1-css-box-model)
+- [JS Notes:](#js-notes)
+    - [1. JS Functions and Events](#1-js-functions-and-events)
 
 
 # Day 01- Learning Basic Html
@@ -305,6 +307,11 @@ HTML stands for HyperText Markup Language. It is used on the frontend and gives 
 1. The CSS box model is essentially a box that wraps around every HTML element.
 2. It consists of: margins, borders, padding, and the actual content.
 3. The box model allows us to add a border around elements, and to define space between elements.
+
+# JS Notes:
+### 1. JS Functions and Events
+1. A JavaScript function is a block of JavaScript code, that can be executed when "called" for. For example, a function can be called when an event occurs, like when the user clicks a button.
+2. 
 
 
 
